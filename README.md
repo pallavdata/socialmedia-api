@@ -4,6 +4,13 @@
     "REFRESH_TOKEN_LIFETIME":timedelta(days=)<br>
     You also have to define days to use JWT auth. Its a expiry (of jwt token) in days you can make it seconds or minutes also.
 </p>
+
+<h4>It is not trained with many images only 7000 (3500- gun image , 3500- other image)<h4>
+<p>if more then 0.5 then it could be a gun else not a gun<p>
+<h4>trained in low image size which is 120x120 {resize it yourself one by one or use cv2.resize)</h4>
+<p>100 times epoch mean 100 times studied all images</p>
+<p>at the time 98% accuracy - 80% test accuracy which is very low</p>
+
 <p>
 URLS:<br>
 -POST /api/reg/staff - registration of the staff members<br>
